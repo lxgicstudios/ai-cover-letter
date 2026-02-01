@@ -2,9 +2,21 @@ import OpenAI from "openai";
 import * as fs from "fs";
 import * as path from "path";
 
-const openai = new OpenAI();
+function getOpenAI(): OpenAI {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    console.error(
+      "Missing OPENAI_API_KEY environment variable.\n" +
+      "Get one at https://platform.openai.com/api-keys then:\n" +
+      "  export OPENAI_API_KEY=sk-..."
+    );
+    process.exit(1);
+  }
+  return new OpenAI({ apiKey });
+}
 
 export async function generate(input: string): Promise<string> {
+  const openai = getOpenAI();
   let resume = "";
   try { resume = fs.readFileSync(path.join(process.cwd(), "resume.md"), "utf-8"); } catch { try { resume = fs.readFileSync(path.join(process.cwd(), "resume.txt"), "utf-8"); } catch {} }
   const userContent = `Write a cover letter for: ${input}\n\n${resume ? "Resume context:\n" + resume : "No resume found. Write a general but compelling letter."}`;
