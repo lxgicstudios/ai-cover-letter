@@ -39,7 +39,7 @@
   "homepage": "https://github.com/LXGIC-Studios/ai-cover-letter#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-cover-letter"
+    "url": "git+https://github.com/LXGIC-Studios/ai-cover-letter.git"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-cover-letter/issues"
