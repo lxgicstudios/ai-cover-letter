@@ -1,5 +1,5 @@
 {
-  "name": "ai-cover-letter",
+  "name": "@lxgicstudios/ai-cover-letter",
   "version": "1.0.1",
   "description": "AI-powered cover letter generator - personalized job applications with GPT",
   "main": "dist/index.js",
