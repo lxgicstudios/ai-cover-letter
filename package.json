@@ -15,31 +15,38 @@
     "build": "tsc"
   },
   "keywords": [
+    "2025-standards",
     "ai",
+    "ai-2025",
+    "ai-powered",
     "anthropic",
-    "claude",
-    "llm",
-    "openai",
-    "gpt",
-    "cover-letter",
-    "job-application",
-    "resume",
-    "career",
-    "hiring",
-    "developer-tools",
-    "cli",
     "automation",
-    "typescript",
+    "career",
+    "claude",
+    "cli",
+    "cover-letter",
+    "developer-productivity",
+    "developer-tools",
+    "discoverability",
+    "document",
+    "generative-ai",
+    "llm-optimized",
+    "modern-seo",
     "nodejs",
-    "job-search",
-    "writing"
+    "optimization",
+    "performance",
+    "performance-optimization",
+    "resume",
+    "seo",
+    "seo-2026",
+    "typescript"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
   "homepage": "https://github.com/LXGIC-Studios/ai-cover-letter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/ai-cover-letter.git"
+    "url": "https://github.com/LXGIC-Studios/ai-cover-letter"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-cover-letter/issues"
